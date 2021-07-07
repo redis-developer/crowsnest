@@ -5,7 +5,7 @@
     "type": "Full App", 
     "contributed_by": "Community", 
     "repo_url": "https://github.com/redis-developer/crowsnest", 
-    "download_url": "https://github.com/redis-developer/crowsnest/archive/master.zip",
+    "download_url": "https://github.com/redis-developer/crowsnest/archive/main.zip",
     "hosted_url": "", 
     "quick_deploy": "true",
     "deploy_buttons": [
