@@ -16,14 +16,11 @@
             "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/crowsnest.git" 
         }
     ], 
-
-
-   "language": ["Python"], 
-    "redis_commands": ["TS.INCRBY", "XREVRANGE", "AI.MODELSET", "TS.RANGE", "RG.PYEXECUTE", "TS.CREATERULE", "TS.CREATE", "AI.SCRIPTSET", "TS.ADD", "XADD", "TS.INCRBY", "AI.TENSORGET", "AI.SCRIPTRUN", "AI.MODELRUN"], // Enter all the Redis commands
+    "language": ["Python"], 
+    "redis_commands": ["TS.INCRBY", "XREVRANGE", "AI.MODELSET", "TS.RANGE", "RG.PYEXECUTE", "TS.CREATERULE", "TS.CREATE", "AI.SCRIPTSET", "TS.ADD", "XADD", "TS.INCRBY", "AI.TENSORGET", "AI.SCRIPTRUN", "AI.MODELRUN"], 
     "redis_features": ["Redis Streams", "Pub/Sub"],
     "redis_modules": ["RedisAI", "RedisGears"], 
-    "app_image_urls": [
-    ], 
+    "app_image_urls": [], 
     "youtube_url": "https://www.youtube.com/watch?v=r6WbiEy36ok", 
     "special_tags": ["Hackathon], 
     "verticals": ["Technology],  
