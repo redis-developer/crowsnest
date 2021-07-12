@@ -18,7 +18,7 @@
     ], 
     "language": ["Python"], 
     "redis_commands": ["TS.INCRBY", "XREVRANGE", "AI.MODELSET", "TS.RANGE", "RG.PYEXECUTE", "TS.CREATERULE", "TS.CREATE", "AI.SCRIPTSET", "TS.ADD", "XADD", "TS.INCRBY", "AI.TENSORGET", "AI.SCRIPTRUN", "AI.MODELRUN"], 
-    "redis_features": ["Redis Streams", "Pub/Sub"],
+    "redis_features": ["Streams", "Pub/Sub"],
     "redis_modules": ["RedisAI", "RedisGears"], 
     "app_image_urls": [], 
     "youtube_url": "https://www.youtube.com/watch?v=r6WbiEy36ok", 
