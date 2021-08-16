@@ -22,7 +22,7 @@
     "redis_features": ["Streams", "Pub/Sub"],
     "redis_modules": ["RedisAI", "RedisGears"], 
     "app_image_urls": [], 
-    "youtube_url": "https://www.youtube.com/watch?v=r6WbiEy36ok", 
+    "youtube_url": "https://www.youtube.com/watch?v=ncjzPFIqFdM", 
     "special_tags": ["Hackathon"], 
     "verticals": ["Technology"],  
     "markdown": "https://raw.githubusercontent.com/redis-developer/crowsnest/main/README.md"
