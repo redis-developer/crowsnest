@@ -23,7 +23,7 @@
     "redis_modules": ["RedisAI", "RedisGears"], 
     "app_image_urls": [], 
     "youtube_url": "https://www.youtube.com/watch?v=ncjzPFIqFdM", 
-    "special_tags": ["Others"], 
-    "verticals": ["Technology"],  
+    "special_tags": ["Hackathon"], 
+    "verticals": ["Others"],  
     "markdown": "https://raw.githubusercontent.com/redis-developer/crowsnest/main/README.md"
 }
