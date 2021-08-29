@@ -1,7 +1,7 @@
 {
     "app_name": "Crowsnest",  
     "description": "Video analysis framework using RedisAI + RedisGears", 
-    "rank": "235", 
+    "rank": 135, 
     "type": "Full App", 
     "contributed_by": "Community", 
     "repo_url": "https://github.com/redis-developer/crowsnest", 
