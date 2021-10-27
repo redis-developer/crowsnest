@@ -1,4 +1,4 @@
-# crowsnest
+# Crowsnest - Video Analysis Framework using RedisAI and RedisGears
 
 
 ## What does Crowsnest do?
