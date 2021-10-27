@@ -1,18 +1,5 @@
 # crowsnest
 
-## Project setup
-In the main folder, run
-```
-npm install
-```
-Open the /dockerized_backend folder and run 
-```
-docker-compose up
-```
-
-Add videos (.mp4) and Tensorflow models (.pb) to the local_backend/data and local_backend/models folders, respectively
-
-In the local_backend folder, run server.py and capture.py
 
 ## What does Crowsnest do?
 This project is being built for the needs of the Israel Dog Unit, a volunteer search and rescue group which uses trackers, dogs and drones to find and rescue missing people on a weekly basis.
@@ -100,6 +87,20 @@ The server receives the detection boxes and video frames from Redis, superimpose
 
 All of this allows users to change video sources and models on the fly to fit mission requirements
 ![Diagram](https://github.com/boriskogan81/crowsnest/blob/main/Diagram.PNG?raw=true "Diagram")
+
+## Project setup
+In the main folder, run
+```
+npm install
+```
+Open the /dockerized_backend folder and run 
+```
+docker-compose up
+```
+
+Add videos (.mp4) and Tensorflow models (.pb) to the local_backend/data and local_backend/models folders, respectively
+
+In the local_backend folder, run server.py and capture.py
 
 ## Background
 I used this project to start filling an ongoing mission requirement, get my feet wet with Python, the Redis stack, AI and computer vision, and compete in the 2021 Redis Hackathon. I used Ajeet Raina's demo (https://github.com/collabnix/redisedge-grafana/ )for a starting point, at his suggestion. 
