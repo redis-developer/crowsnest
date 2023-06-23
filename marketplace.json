@@ -1,6 +1,6 @@
 {
     "app_name": "Crowsnest",  
-    "description": "Video analysis framework using RedisAI + RedisGears", 
+    "description": "Video analysis framework using Redis", 
     "rank": 135, 
     "type": "Full App", 
     "contributed_by": "Community", 
@@ -19,8 +19,8 @@
     ], 
     "language": ["Python"], 
     "redis_commands": ["TS.INCRBY", "XREVRANGE", "AI.MODELSET", "TS.RANGE", "RG.PYEXECUTE", "TS.CREATERULE", "TS.CREATE", "AI.SCRIPTSET", "TS.ADD", "XADD", "TS.INCRBY", "AI.TENSORGET", "AI.SCRIPTRUN", "AI.MODELRUN"], 
-    "redis_features": ["Streams", "Pub/Sub"],
-    "redis_modules": ["RedisAI", "RedisGears"], 
+    "redis_use_cases": ["Streams", "Pub/Sub"],
+    "redis_features": ["Triggers and Functions"], 
     "app_image_urls": [], 
     "youtube_url": "https://www.youtube.com/watch?v=ncjzPFIqFdM", 
     "special_tags": ["Hackathon"], 
