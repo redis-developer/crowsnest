@@ -1,19 +1,19 @@
 
-# Dockerized RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana 
+# Dockerized RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana
 
 
 ### Description:
 
-RedisEdge from Redis Labs is a purpose-built, multi-model database for the demanding conditions at the Internet of Things (IoT) edge. It can ingest millions of writes per second with <1ms latency and a very small footprint (<5MB), so it easily resides in constrained compute environments. It can run on a variety of edge devices and sensors ranging from ARM32 to x64-based hardware. RedisEdge bundles open source Redis (version 5 with Redis Streams) with the RedisAI and RedisTimeSeries modules, along with RedisGears for inter-module communication.
+RedisEdge from Redis is a purpose-built, multi-model database for the demanding conditions at the Internet of Things (IoT) edge. It can ingest millions of writes per second with <1ms latency and a very small footprint (<5MB), so it easily resides in constrained compute environments. It can run on a variety of edge devices and sensors ranging from ARM32 to x64-based hardware. RedisEdge bundles open source Redis (version 5 with Redis Streams) with the RedisAI andRedis Time Series modules, along with RedisGears for inter-module communication.
 
-RedisEdge bundles Open Source Redis + Redis Streams + Redis Modules. 
+RedisEdge bundles Open Source Redis + Redis Streams + Redis Modules.
 - Redis Stream is a new data type introduced with Redis 5.0, which models a log data structure in a more abstract way.
-- RedisTimeSeries is a Redis Module adding a Time Series data structure to Redis.
+-Redis Time Series is a Redis Module adding a Time Series data structure to Redis.
 - RedisGears is a serverless engine for transaction, batch and event-driven data processing in Redis. It is a dynamic framework for the execution of functions that, in turn, implement data flows in Redis, while (almost) entirely abstracting the data's distribution and choice of deployment (i.e. stand-alone vs. cluster, OSS vs. Enterprise). Functions can be implemented in different languages, including Python and C APIs .
 - RedisAI enables you to run an AI inference engine across your Redis database.
 
 
-An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for Real-time Video Analytics (i.e. counting people). 
+An example of using Redis Streams, RedisGears, RedisAI, andRedis Time Series for Real-time Video Analytics (i.e. counting people).
 
 
 
@@ -67,4 +67,3 @@ The RedisEdge stack consists of the latest Redis stable release and select Redis
 ## References
 
 - https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
-
